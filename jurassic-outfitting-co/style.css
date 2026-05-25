@@ -7,12 +7,27 @@
     font-family: 'Inter', sans-serif;
     color:#14183B;
 }
+html{
+    height: 100%;
+}
 body{
     background-color: #D7D3C6;
     margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 header{
     background-color: #B2A696;
+}
+main {
+    flex: 1 0 auto; 
+}
+
+footer {
+    background-color: #B2A696;
+    flex-shrink: 0; 
 }
 .header {
     border:none;
@@ -753,10 +768,10 @@ option{
     background-color: #236154;
     color: #F8F8F0;
 }
+
 /* shopping cart */
-.shopping-cart-wrapper{
+.shopping-cart-wrapper {
     margin: 0 10%;
-    min-height: 100vh;
 }
 #cart{
     margin-bottom: 20px;
