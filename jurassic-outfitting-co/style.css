@@ -386,22 +386,6 @@ h5{
     object-position: center;
 }
 
-#founders{
-    margin: 0 10%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-}
-#founders h2{
-    width: 100%;
-}
-#founders section{
-    width: 46%;
-    background-color: #C4C896;
-    box-shadow: 5px 10px #436771;
-    border-radius: 1vh;
-    margin-bottom: 20px;
-}
 .founder-card-wrapper{
     display: flex;
     flex-flow: column nowrap;
@@ -1002,16 +986,6 @@ option{
         font-size: 16px;
     }
     .about-image{
-        width: 100%;
-    }
-    #founders{
-        margin: 0 5%;
-        flex-flow: row wrap;
-    }
-    #founders h2{
-        font-size: 21px;
-    }
-    #founders section{
         width: 100%;
     }
     .founder-card-wrapper h3{
